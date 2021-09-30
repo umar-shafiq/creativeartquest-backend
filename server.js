@@ -59,8 +59,8 @@ app.use(errorHandler)
 let port = process.env.PORT || 3000
 
 // Start the server
-app.listen(port || 3000, async () => {
-  console.log(`Server Started on port ${port}`);
+app.listen(3001, async () => {
+  console.log(`Server Started on port 3001`);
   await sequelize.authenticate();
   // await sequelize.sync({force:true , alter: true});
   console.log("DB connected");
