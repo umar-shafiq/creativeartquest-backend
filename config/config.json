@@ -1,9 +1,9 @@
 {
   "development": {
     "username": "postgres",
-    "password": "rootpassword",
+    "password": "S3{zAR!:z9p2<4~2",
     "database": "creativeArt",
-    "host": "127.0.0.1",
+    "host": "3.137.139.72",
     "dialect": "postgres"
   },
   "test": {
