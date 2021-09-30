@@ -41,7 +41,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 
 // Routes & controllers
-app.get("/", (req, res) => res.json({ msg: "Welcome to Dragons of Midgard Api" }));
+app.get("/", (req, res) => res.json({ msg: "Welcome to Creative Art Quest. Magicla Wave" }));
 app.use("/api", require("./src/routes/nft.route"));
 
 // Catch all route, generate an error & forward to error handler
